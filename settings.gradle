@@ -1,0 +1,2 @@
+rootProject.name='CareOF'
+include ':app'
