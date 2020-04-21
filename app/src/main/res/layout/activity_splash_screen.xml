@@ -8,28 +8,18 @@
     tools:context=".Activities.SplashScreenActivity">
 
     <TextView
-        android:layout_width="198dp"
-        android:layout_height="68dp"
+        android:layout_width="291dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="276dp"
         android:fontFamily="@font/roboto_bold"
-        android:text="Care / of"
+        android:text="care / of"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="186dp"
-        android:layout_height="165dp"
-        android:layout_marginBottom="200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.524"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_meds_log" />
 </androidx.constraintlayout.widget.ConstraintLayout>
